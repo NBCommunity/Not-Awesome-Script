@@ -1063,7 +1063,7 @@ namespace PluginCCS {
     public class CmdScript : Command2 {
         public override string name { get { return "Script"; } }
         public override string shortcut { get { return ""; } }
-        public override bool MessageBlockRestricted { get { return true; } }
+        public override bool MessageBlockRestricted { get { return false; } }
         public override string type { get { return "other"; } }
         public override bool museumUsable { get { return false; } }
         public override LevelPermission defaultRank { get { return LevelPermission.Guest; } }
