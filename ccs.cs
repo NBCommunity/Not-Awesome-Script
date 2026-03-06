@@ -1316,6 +1316,7 @@ namespace PluginCCS {
         public static string FullPath(string scriptName) { return PATH + scriptName + EXT; }
 
         public static bool OsAllowed(Player p) {
+			return true; // Always allowed!
             bool allowed = Server.Config.ClassicubeAccountPlus;
             if (!allowed) {
                 p.Message("OS scripts (/oss) are not allowed on this server because it does not use ClassicubeAccountPlus config.");
