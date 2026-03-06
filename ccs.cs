@@ -1593,7 +1593,7 @@ namespace PluginCCS {
             p.cancelcommand = true;
         }
 
-        public static bool IsOs(Level level) { return level.name.Contains("+"); }
+        public static bool IsOs(Level level) { return true; } // All maps are now OS maps!
 
         /// <summary>
         /// Used to instantiate a new script in CompileScript
